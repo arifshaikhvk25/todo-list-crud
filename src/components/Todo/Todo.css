@@ -1,0 +1,72 @@
+.todo-input-add-delete {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    width: 70%;
+    /* flex: 1; */
+    flex-wrap: wrap;
+    /* background: #000; */
+    color: aqua;
+    padding: 4rem;
+    /* margin-bottom: 3rem; */
+}
+
+.todo-input {
+    width: 60%;
+}
+
+.todo-input input {
+    padding: 1rem;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 2px solid gold;
+    border-radius: 2rem;
+    outline: none;
+
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 40%;
+}
+
+.btn {
+    font-family: var(--font-base);
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1rem;
+    border: 2px solid gold;
+    border-radius: 1rem;
+    /* color: aqua; */
+    /* background: black; */
+}
+
+.deletAll .btn {
+    background: rgb(237, 50, 50);
+    color: #000;
+    cursor: pointer;
+}
+
+.deletAll .btn:hover{
+    background: #e78d8d;
+}
+
+.add-edit .btn {
+    background: rgb(105, 234, 105);
+    color: #000;
+    cursor: pointer;
+}
+
+.add-edit .btn:hover{
+    background: rgb(142, 244, 142);
+}
+
+.no-list {
+    font-size: 2rem;
+    font-weight: 900;
+    font-family: "Lobster", cursive;;
+    color: #000;
+}
